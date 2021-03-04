@@ -59,6 +59,7 @@ class Index extends Component {
     return (
       <View className="index">
         <Input
+          type="text"
           focus
           placeholder="123"
           confirmType="search"
