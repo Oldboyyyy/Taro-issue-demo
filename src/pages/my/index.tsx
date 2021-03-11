@@ -4,6 +4,9 @@ import { observer, inject } from "mobx-react";
 import { navigateTo } from "@tarojs/taro";
 
 export default class extends React.Component {
+  componentDidShow() {
+    console.log("page my componentDidShow");
+  }
   render() {
     console.log(this.props);
     return (
